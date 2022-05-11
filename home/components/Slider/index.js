@@ -20,8 +20,7 @@ function Slider({ sliderRef }) {
       id: 2,
       title:
         "Motivated teams bonded with strong alliances can push the boundaries of imaginations",
-      image:
-        "https://static.ascot.ws/assets/Images/pexels-fauxels-3183165.jpg",
+      image: "https://static.ascot.ws/assets/Images/pexels-fauxels-3183165.jpg",
       buttonText: "View Our Services",
       buttonLink: "/services",
     },
@@ -38,8 +37,7 @@ function Slider({ sliderRef }) {
       id: 4,
       title:
         "Motivated teams bonded with strong alliances can push the boundaries of imaginations",
-      image:
-        "https://static.ascot.ws/assets/Images/pexels-fauxels-3183165.jpg",
+      image: "https://static.ascot.ws/assets/Images/pexels-fauxels-3183165.jpg",
       buttonText: "View Our Services",
       buttonLink: "/services",
     },
@@ -55,27 +53,29 @@ function Slider({ sliderRef }) {
       <Splide options={options} aria-label="My Favorite Images">
         <div className="splide__arrows" />
         <SplideSlide>
-          <img src="https://ascot-stg-static.s3.amazonaws.com/assets/Images/pexels-pavel-danilyuk-7658434.jpg" alt="Image 1" />
+          <img
+            src="https://ascot-stg-static.s3.amazonaws.com/assets/Images/pexels-pavel-danilyuk-7658434.jpg"
+            alt="Image 1"
+          />
           <div className={classes.styleContent}>
             <h1>
               Motivated teams bonded with strong alliances <br /> can push the
               boundaries of imaginations
             </h1>
-            <center>
-              <BTN text="View Our Services" color="#FFFFFF" link="/services" />
-              {/* <CustomBtnComponent txt="View Our Services" txtColor="#FFFFFF" white={true} link="/services"/> */}
-            </center>
+            asdasdas
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://ascot-stg-static.s3.amazonaws.com/assets/Images/pexels-fauxels-3183165.jpg" alt="Image 2" />
+          <img
+            src="https://ascot-stg-static.s3.amazonaws.com/assets/Images/pexels-fauxels-3183165.jpg"
+            alt="Image 2"
+          />
           <div className={classes.styleContent}>
             <h1>
               Motivated teams bonded with strong alliances <br /> can push the
               boundaries of imaginationss
             </h1>
             <center>
-              <BTN text="View Our Services" color="#FFFFFF" link="/services" /> 
               {/* <CustomBtnComponent txt="View Our Services"  txtColor="#FFFFFF" link="/services" /> */}
             </center>
           </div>
