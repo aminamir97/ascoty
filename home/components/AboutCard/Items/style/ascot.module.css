@@ -1,0 +1,51 @@
+.styleCard {
+  width: 370px;
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+  margin: 15px;
+}
+.styleImage {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+}
+.styleImage img {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.styleDescription {
+  width: 92%;
+  margin: auto;
+  height: 150px;
+  position: absolute;
+  background-color: white;
+  left: 15px;
+  bottom: -10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.25);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.styleDescription h5 {
+  font-family: Glory;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.styleDescription p {
+  font-family: Glory;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}

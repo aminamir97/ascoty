@@ -1,0 +1,35 @@
+.headerContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.openPositionsSection {
+  margin-top: 200px;
+}
+
+.sectionTitle {
+  text-align: center;
+  /* Heading 1 */
+
+  font-family: "Glory", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 56px;
+  /* or 117% */
+
+  color: #000000;
+}
+
+.jobItemsContainer {
+  margin: auto;
+  padding: 10px 5% 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+  flex-direction: row;
+  align-items: center;
+}

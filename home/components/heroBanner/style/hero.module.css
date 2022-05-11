@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+  height: 422px;
+}
+
+.imageContainer {
+  margin-top: 6%;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://static.ascot.ws/assets/Images/pexels-pavel-danilyuk-7658434.jpg);
+  background-size: cover;
+  background-position: 50% 73%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.hero h1 {
+  position: absolute;
+  height: 58px;
+  left: 90px;
+
+  font-family: "Glory";
+  font-size: 52px;
+  color: white;
+  font-weight: bold;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: end;
+  align-self: flex-end;
+}

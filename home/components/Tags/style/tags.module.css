@@ -1,0 +1,36 @@
+.tagsP {
+  margin-top: 3rem;
+
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dedede;
+  border-color: #dedede;
+  padding-bottom: 10px;
+}
+.tagsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+  gap: 10px;
+}
+.border {
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  padding: auto;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.div {
+  margin-bottom: 25px;
+}
+
+.container {
+  margin-top: 20px;
+}

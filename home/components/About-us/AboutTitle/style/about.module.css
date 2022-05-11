@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,400;0,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,400;0,500;0,600;1,600&display=swap");
+
+.whoWeAre {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  justify-content: flex-start;
+}
+
+.whoWeAre h1 {
+  font-family: Glory;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+.whoWeAre p {
+  width: 70%;
+  font-family: Glory;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+

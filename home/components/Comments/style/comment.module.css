@@ -1,0 +1,74 @@
+.container {
+  /* max-width: 90%; */
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+.span {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.svg {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.span2 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.pComment {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+  margin-left: 65px;
+}
+.comment {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+}
+.name {
+  margin-right: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.commentsContainer {
+  margin-left: 5.2rem;
+  margin-top: 1rem;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+.textArea {
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.textAreaContainer {
+  margin-left: 5.2rem;
+  margin-top: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.input {
+  width: 430px;
+  height: 50px;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 6px;
+}

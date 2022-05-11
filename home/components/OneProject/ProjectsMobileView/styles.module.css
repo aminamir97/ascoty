@@ -1,0 +1,127 @@
+.container {
+  display: grid;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+}
+
+.smallHead {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 6px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #36a9e1;
+}
+.title {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #1d1d1b;
+}
+.desc {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.btn {
+  flex: 1;
+  padding-top: 30px;
+  margin: 0;
+}
+.subHead {
+  margin-top: 50px;
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/*  ************************** Style overlay ************************** */
+@media (max-width: 350px) {
+  .containerOverLay {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    /* margin: 1rem; */
+    border-radius: 18px;
+    background: conic-gradient(
+      from 135.35deg at 50.11% 50%,
+      #0af0dd -5.59deg,
+      #6d2e88 175.38deg,
+      #be72f3 255.1deg,
+      #36a9e1 331.32deg,
+      #0af0dd 354.41deg,
+      #6d2e88 535.38deg
+    );
+  }
+}
+@media (min-width: 350px) and (max-width: 700px) {
+  .containerOverLay {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    /* margin: 1rem; */
+    border-radius: 18px;
+    background: conic-gradient(
+      from 135.35deg at 50.11% 50%,
+      #0af0dd -5.59deg,
+      #6d2e88 175.38deg,
+      #be72f3 255.1deg,
+      #36a9e1 331.32deg,
+      #0af0dd 354.41deg,
+      #6d2e88 535.38deg
+    );
+  }
+}
+.son1 {
+  z-index: 5;
+  position: absolute;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 10px;
+}
+.son2 {
+  z-index: 3;
+  position: absolute;
+  border-radius: 18px;
+  background-image: url(https://static.ascot.ws/assets/Images/pexels-pixabay-163210.jpg);
+  width: 100%;
+  height: 100%;
+  top: 20px;
+  left: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

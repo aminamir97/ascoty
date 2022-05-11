@@ -1,0 +1,29 @@
+.category {
+  border-bottom: 1px solid #dedede;
+  border-color: #dedede;
+  padding-bottom: 9px;
+  max-width: 80%;
+  font-weight: 700;
+  border-bottom-width: 2px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+}
+.li {
+  margin-right: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dedede;
+  max-width: 80%;
+  border-color: #f0f0f0;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+.a {
+  color: #000;
+  text-decoration: none;
+  border-color: #dedede;
+}
+.ul {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+.connect {
+    background-color: #f6f6f6;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 720px) {
+    .connect {
+      background-color: #f6f6f6;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media  screen and (max-width: 480px) {
+    .connect {
+      background-color: #f6f6f6;
+      height: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }

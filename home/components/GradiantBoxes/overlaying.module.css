@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  width: 570px;
+  height: 666px;
+
+  border-radius: 18px;
+  background: conic-gradient(
+    from 135.35deg at 50.11% 50%,
+    #0af0dd -5.59deg,
+    #6d2e88 175.38deg,
+    #be72f3 255.1deg,
+    #36a9e1 331.32deg,
+    #0af0dd 354.41deg,
+    #6d2e88 535.38deg
+  );
+}
+.son1 {
+  z-index: 5;
+  position: absolute;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 18px;
+  width: 570px;
+  height: 666px;
+  top: 20px;
+  right: 20px;
+}
+.son2 {
+  z-index: 3;
+  position: absolute;
+  border-radius: 18px;
+  background-image: url(https://static.ascot.ws/assets/Images/pexels-ovan-57690.jpg);
+  width: 570px;
+  height: 666px;
+  top: 40px;
+  right: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 780px) { 
+  .containerOverLay {
+    position: relative;
+    width: 294px;
+    height: 343px;
+  
+    border-radius: 18px;
+    background: conic-gradient(
+      from 135.35deg at 50.11% 50%,
+      #0af0dd -5.59deg,
+      #6d2e88 175.38deg,
+      #be72f3 255.1deg,
+      #36a9e1 331.32deg,
+      #0af0dd 354.41deg,
+      #6d2e88 535.38deg
+    );
+  }
+  .son1 {
+    z-index: 5;
+    position: absolute;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 294px;
+    height: 343px;
+    top: 20px;
+    right: 20px;
+  }
+  .son2 {
+    z-index: 3;
+    position: absolute;
+    border-radius: 18px;
+    background-image: url(https://static.ascot.ws/assets/Images/pexels-ovan-57690.jpg);
+    width: 294px;
+    height: 343px;
+    top: 40px;
+    right: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

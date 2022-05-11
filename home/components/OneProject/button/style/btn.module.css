@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@100;500&display=swap");
+
+.container {
+  display: flex;
+  width: 220px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container .circle {
+  border-radius: 50%;
+  display: flex;
+  width: 61px;
+  height: 61px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  z-index: 55;
+  font-family: Glory;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: -5px;
+}

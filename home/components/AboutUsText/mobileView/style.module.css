@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  /* justify-content: flex-start; */
+  /* width: 470px; */
+  margin-right: 55px;
+  margin-bottom: 10px;
+}
+
+.smallHead {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #36a9e1;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #1d1d1b;
+}
+
+.desc {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.contDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* width: 470px; */
+  padding: 5px;
+  margin-top: 70px;
+}
+
+/*  ************************************** Overlaying Style ************************************* */
+
+.containerOverLay {
+  position: relative;
+  width: 194px;
+  height: 243px;
+  border-radius: 18px;
+  background: conic-gradient(
+    from 135.35deg at 50.11% 50%,
+    #0af0dd -5.59deg,
+    #6d2e88 175.38deg,
+    #be72f3 255.1deg,
+    #36a9e1 331.32deg,
+    #0af0dd 354.41deg,
+    #6d2e88 535.38deg
+  );
+}
+.son1 {
+  z-index: 5;
+  position: absolute;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 18px;
+  width: 194px;
+  height: 243px;
+  top: 20px;
+  right: 20px;
+}
+.son2 {
+  z-index: 3;
+  position: absolute;
+  border-radius: 18px;
+  background-image: url(https://static.ascot.ws/assets/Images/pexels-ovan-57690.jpg);
+  width: 194px;
+  height: 243px;
+  top: 40px;
+  right: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

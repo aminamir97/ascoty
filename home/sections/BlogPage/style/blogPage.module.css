@@ -1,0 +1,10 @@
+.allPage {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}

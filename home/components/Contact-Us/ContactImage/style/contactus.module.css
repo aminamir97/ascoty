@@ -1,0 +1,43 @@
+
+.styleConnect {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.connect1 {
+  width: 100%;
+    height: 40%;
+  position: absolute;
+  background-image: url(https://static.ascot.ws/assets/Patterns/FooterPattern.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: relative;
+}
+
+@media  screen and (max-width: 680px) {
+  .connect1 {
+    width: 87%;
+    height: 220px;
+    position: absolute;
+    background-image: url(https://static.ascot.ws/assets/Icons/contactusMobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -37%;
+  }
+}
+
+@media  screen and (max-width: 480px) {
+  .connect1 {
+  width: 100%;
+    height: 185px;
+    position: absolute;
+    background-image: url(https://static.ascot.ws/assets/Icons/contactusMobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

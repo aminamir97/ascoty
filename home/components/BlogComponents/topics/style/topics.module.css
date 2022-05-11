@@ -1,0 +1,53 @@
+.all {
+  margin-top: 3rem;
+}
+.topics {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 12px;
+  max-width: 80%;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 9px;
+  max-width: 80%;
+}
+.aStyle {
+  padding-right: 0.75rem;
+  border-right-width: 2px;
+  color: #36a9e1;
+  font-weight: 400;
+font-size: 21px;
+line-height: 26px;
+  
+}
+.span {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.svg {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.span2 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #acacac;
+  font-weight: 400;
+font-size: 19px;
+line-height: 26px;
+}
+.p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+  margin-bottom: 1rem;
+}

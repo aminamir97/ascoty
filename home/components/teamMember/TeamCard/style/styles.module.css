@@ -1,0 +1,41 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+}
+.img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10 px;
+}
+.name {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 29px;
+  color: #1d1d1b;
+}
+.role {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  color: #36a9e1;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.desc {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  color: #1d1d1b;
+}

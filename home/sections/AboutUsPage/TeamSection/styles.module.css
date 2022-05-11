@@ -1,0 +1,17 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .styleOneMember {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@600&display=swap");
+.colContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 600px;
+  /* margin-right: 20px; */
+}
+.colContainer p {
+  /* Paragraph */
+  font-family: "Glory";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 100;
+  /* or 124% */
+
+  color: #000000;
+}
+
+.textBox {
+  margin-bottom: 60px;
+}
+
+.listItem {
+  height: 45px;
+  padding: 0px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.listItem img {
+  padding: 0px;
+  margin: 0px;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.header {
+  /* Heading 1 */
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 56px;
+  /* or 117% */
+  color: #000000;
+}
+
+.horDivider {
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #666;
+  opacity: 0.5;
+}
+
+.applyNowSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.iconsRow {
+  
+  display: flex;
+  flex-direction: row;
+}
+.socialMediaIcon {
+  margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+.service {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.styleServices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 10rem 0 10rem;
+  }
+

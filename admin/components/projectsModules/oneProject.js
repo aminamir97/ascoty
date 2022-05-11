@@ -1,0 +1,146 @@
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import classes from "./styles.module.css";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
+import Switch from "@mui/material/Switch";
+
+function OneProject(props) {
+
+  const [open, setOpen] = React.useState(false);
+  const [openDelete, setOpenDelete] = React.useState(false);
+  const [stateOfTitleInput, setStateOfTitleInput] = React.useState(props.title);
+  const [stateOfDescInput, setStateOfDescInput] = React.useState(
+    props.description
+  );
+  const [stateOfImageFInput, setStateOfImageFInput] = React.useState(
+    props.featuredImage
+  );
+  const [stateOfImageInput, setStateOfImageInput] = React.useState(props.image);
+
+  const [checked, setChecked] = React.useState(false);
+
+  const handleChange = (event) => {
+    setChecked(event.target.checked);
+  };
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClickOpenDelete = () => {
+    setOpenDelete(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleCloseDelete = () => {
+    setOpenDelete(false);
+  };
+
+  return (
+    <Card
+      className={classes.styleOneProject}
+      key={props.id}
+      sx={{ maxWidth: 300 }}
+    >
+      <CardContent>
+        <img className={classes.styleImage} src={props.image} />
+        <Typography variant="h4" color="text.secondary" gutterBottom>
+          {props.title}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button onClick={handleClickOpen} size="small">
+          Edit
+        </Button>
+        <Button onClick={handleClickOpenDelete} size="small">
+          Delete
+        </Button>
+      </CardActions>
+      <Dialog open={openDelete} onClose={handleCloseDelete}>
+        <DialogTitle>Delete {props.title}</DialogTitle>
+        <DialogContent>
+          <Typography>
+            Are You Sure you Want To Delete This Project ?
+          </Typography>
+          <div className={classes.actionDelete}>
+            <Button onClick={handleCloseDelete}>Cancel</Button>
+            <Button
+              onClick={() => {
+                props.onDelete(props.id);
+                handleCloseDelete();
+              }}
+              type="submit"
+            >
+              Delete
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+      <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Edit {props.title}</DialogTitle>
+        <DialogContent>
+        <form
+            onSubmit={(e) => props.onEdit(e, props.id)}
+            className={classes.form}
+          >
+            <input
+              type="text"
+              name="title"
+              value={stateOfTitleInput}
+              onChange={(e) => setStateOfTitleInput(e.target.value)}
+            />
+            <input
+              type="url"
+              name="image"
+              value={stateOfImageInput}
+              onChange={(e) => setStateOfImageInput(e.target.value)}
+            />
+            <div className={classes.styleSwitch}>
+              <p>Featured</p>
+              <Switch
+                checked={checked}
+                onChange={handleChange}
+                color="primary"
+              />
+            </div>
+            {checked && (
+              <input
+                type="url"
+                name="image"
+                value={stateOfImageFInput}
+                onChange={(e) => setStateOfImageFInput(e.target.value)}
+                placeholder="Featured Image"
+              />
+            )}
+            {checked && (
+              <input
+                type="text"
+                name="description"
+                value={stateOfDescInput}
+                onChange={(e) => setStateOfDescInput(e.target.value)}
+                placeholder="Description"
+              />
+            )}
+             <div className={classes.actions}>
+              <Button onClick={handleClose}>Cancel</Button>
+              <Button onClick={handleClose} type="submit">
+                Edit
+              </Button>
+            </div>
+          </form>
+        </DialogContent>
+      </Dialog>
+    </Card>
+  );
+}
+
+export default OneProject;

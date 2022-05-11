@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@100;500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.swiper p {
+  display: none;
+}
+.aSwip {
+  display: none;
+}
+@media (min-width: 976px) {
+  .swiper img {
+    height: 336px !important;
+    width: 503px !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 975px) {
+  .swiper img {
+    height: 230px !important;
+    width: 390px !important;
+  }
+}
+
+.swiper-slide-active {
+  display: block;
+  background-color: #f6f6f6;
+}
+.swiper-slide-active p {
+  display: block !important;
+  color: #000;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.swiper-slide-active .aSwip {
+  display: block !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 250px;
+    height: auto;
+  }
+}
+
+.swiper a {
+  color: #36a9e1 !important;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  display: block;
+}
+
+.container .swiper-container {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: -16vw;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+  padding-bottom: 3vw;
+}
+
+@media (max-width: 768px) {
+  .container .swiper-container {
+    bottom: -58vw;
+    padding-bottom: 8vw;
+  }
+}
+@media (min-width: 976px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    width: 12px;
+    height: 19.05px;
+
+    color: #6d2e88 !important;
+    background-color: #f6f6f6;
+    top: 420px !important;
+    border: 1px solid #6d2e88;
+    border-radius: 50%;
+    padding: 30px;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 600px) and (max-width: 975px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    width: 12px;
+    height: 19.05px;
+
+    color: #6d2e88 !important;
+    background-color: #f6f6f6;
+    top: 300px !important;
+    border: 1px solid #6d2e88;
+    border-radius: 50%;
+    padding: 30px;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 1450px) {
+  .swiper-button-prev {
+    left: 490px !important;
+  }
+}
+
+@media (min-width: 1450px) {
+  .swiper-button-next {
+    right: 490px !important;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1449px) {
+  .swiper-button-prev {
+    left: 190px !important;
+  }
+}
+@media (min-width: 810px) and (max-width: 1449px) {
+  .swiper-button-next {
+    right: 190px !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 809px) {
+  .swiper-button-prev {
+    left: 90px !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 809px) {
+  .swiper-button-next {
+    right: 90px !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  .swiper-button-prev {
+    left: 90px !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 699px) {
+  .swiper-button-next {
+    right: 90px !important;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  12.5% {
+    transform: translateX(-6px) rotateY(-5deg);
+  }
+  37.5% {
+    transform: translateX(5px) rotateY(4deg);
+  }
+  62.5% {
+    transform: translateX(-3px) rotateY(-2deg);
+  }
+  87.5% {
+    transform: translateX(2px) rotateY(1deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shake {
+  animation: shake 400ms ease-in-out;
+}

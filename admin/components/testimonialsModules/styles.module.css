@@ -1,0 +1,82 @@
+.styleStack {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.styleButton {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.styleAllProject {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+/* ******************************* STYLE FORM ****************************** */
+
+.styleOneProject {
+  height: 30%;
+  margin: 10px;
+}
+
+.styleOneProject img {
+  width: 100%;
+  height: 300px;
+}
+
+.styleDesc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+white-space: nowrap;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  
+  .form input :focus {
+    background-color: lightblue;
+  }
+  
+  .actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    font-size: 10px;
+    align-self: flex-end;
+  }
+
+  .actionDelete {
+    display: flex;
+    width:100%;
+   justify-content: flex-end;
+    box-sizing: border-box;
+    font-size: 10px;
+    align-self: flex-end;
+  }
+
+  .styleSwitch {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+  }

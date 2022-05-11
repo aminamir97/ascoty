@@ -1,0 +1,31 @@
+.oneCore {
+  margin: 0px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border: 1px solid #D2D1D1;
+  margin-top: 1rem ;
+  margin-bottom:1rem ;
+
+}
+
+.title {
+  font-family: Glory;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #36A9E1;
+}
+
+.description {
+  font-family: Glory;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}

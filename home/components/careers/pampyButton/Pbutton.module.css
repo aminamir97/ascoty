@@ -1,0 +1,20 @@
+.circleContainer {
+  margin-top: 20px;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  background: #6d2e88;
+  align-self: flex-end;
+  justify-content: center;
+  border-radius: 50%;
+}
+.circleContainer:hover {
+  margin-top: 20px;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  background: #823ba0;
+  align-self: flex-end;
+  justify-content: center;
+  border-radius: 40%;
+}

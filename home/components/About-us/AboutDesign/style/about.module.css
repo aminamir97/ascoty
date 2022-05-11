@@ -1,0 +1,126 @@
+@media (min-width: 601px) {
+  .aboutPhotos {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    justify-self: flex-start;
+    width: 671px;
+    /* left: 60px; */
+    margin-top: 5%;
+  }
+
+  .firstStyleOfImages {
+    width: 50%;
+    top: 0%;
+  }
+
+  .secondStyleOfImages {
+    width: 90%;
+  }
+
+  .backgroun1 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+  .backgroun2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: -3%;
+    border-radius: 50%;
+  }
+
+  .styleIconBackground {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-left: -30px;
+    margin-top: -94px;
+  }
+
+  .backgroun3 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-top: 206px;
+    margin-left: 119px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 601px) {
+  .whoWeAre {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .whoWeAre h1 {
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: start;
+  }
+
+  .whoWeAre p {
+    width: 70%;
+    font-family: Glory;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: start;
+  }
+
+  .aboutPhotos {
+    width: 50rem;
+    display: flex;
+    justify-content: flex-start;
+    justify-self: flex-start;
+    width: 671px;
+    margin-top: 5%;
+    margin-left: 3rem;
+  }
+  .backgroun1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .backgroun2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: -30px;
+    border-radius: 50%;
+  }
+
+  .styleIconBackground {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: -40px;
+    margin-top: -94px;
+  }
+
+  .backgroun3 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-radius: 50%;
+  }
+}

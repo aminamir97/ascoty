@@ -1,0 +1,50 @@
+.arrow {
+  color: blue;
+  background-color: aqua;
+  padding: 30px;
+}
+.dive {
+  color: black;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+}
+
+.smallHead {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 6px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #36a9e1;
+}
+.title {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #1d1d1b;
+}
+@media (min-width: 701px) {
+  .display {
+    display: none;
+  }
+}

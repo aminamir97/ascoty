@@ -1,0 +1,57 @@
+
+.styleConnectTitle {
+  text-align: center;
+  padding-top: 50px;
+  color: #36a9e1;
+  font-family: Glory;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.styleConnectContent {
+  text-align: center;
+  font-family: Glory;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .styleConnectTitle {
+    text-align: center;
+    padding-top: 50px;
+    color: #36a9e1;
+    font-family: Glory;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .styleConnectContent {
+    text-align: center;
+    font-family: Glory;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+@media  screen and (max-width: 480px) {
+  .styleConnectTitle {
+    text-align: center;
+    padding-top: 50px;
+    color: #36a9e1;
+    font-family: Glory;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .styleConnectContent {
+    text-align: center;
+    font-family: Glory;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}

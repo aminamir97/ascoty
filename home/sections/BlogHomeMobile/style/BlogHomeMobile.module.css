@@ -1,0 +1,39 @@
+
+.blog {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 56px;
+
+  text-align: center;
+
+  color: #36a9e1;
+}
+.title {
+  font-family: "Glory";
+  font-style: normal;
+  font-weight: 600;
+  font-size:25px;
+  line-height: 56px;
+
+  text-align: center;
+
+  color: #1d1d1b;
+}
+.bg {
+  /* background-color: #f8f6f6; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 601px) {
+  .container {
+    display: block;
+  }
+}
+@media screen and (min-width: 601px) {
+  .container {
+    display: none;
+  }
+}
